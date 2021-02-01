@@ -4,11 +4,12 @@ import datetime
 
 array1=[]
 array2=[]
-for x in range(0,21):
+for x in range(1,6):
     sum1=0
     sum2=0
     for i in range(1,6):
-        logfile = "E://Noise log//alient activity//all//" + str(x) + "-" + str(i) + ".xes"
+        logfile = "E://noise log//Experiment 2 Ex//Level "+ str(x) +"//log file//"+str(i)+ "//0.xes"
+
         print(logfile)
         log = xes_importer.apply(logfile)
 

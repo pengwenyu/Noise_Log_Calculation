@@ -2,9 +2,9 @@ from pm4py.objects.log.importer.xes import importer as xes_importer
 import os
 import datetime
 x=20
-i=2
+i=3
 
-logfile = "E://Noise log//missing head//all//" + str(x) + "-" + str(i) + ".xes"
+logfile = "D:\process mining\Fitness and Precision\Archieve\log1.xes"
 
 log = xes_importer.apply(logfile)
 
